@@ -1,0 +1,24 @@
+
+python --version
+pip --version
+
+python3 -m venv venv  // create a python virtual environment
+source venv/bin/activate //activate virtual environment
+
+
+//fastapi-for http api
+//uvicorn - run the application
+pip install fastapi uvicorn 
+
+
+// after creating main.py 
+uvicorn main:app --reload --port 8000 //to start the server
+
+
+//inside activated virtual environment
+pip install -U google-genai python-dotenv
+
+// to check similarity and return releven chunk
+pip install faiss-cpu
+
+
